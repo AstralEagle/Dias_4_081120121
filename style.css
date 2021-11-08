@@ -715,6 +715,14 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
+.citation{
+    font-size: 19px;
+    line-height: 1.4em;
+    text-transform: none;
+    font-weight: 500;
+    color: #3f3f3f!important;
+
+}
 
 .med-width-whitespace {
     max-width: 800px;
