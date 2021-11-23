@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -651,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757!;
 }
 
 .container {
@@ -1045,5 +1044,14 @@ h4 {
     }
 }
 .black{
-    color: #000000!important;
+    color: #000000;
+}
+a:focus{
+    border: 5px solid #000000;
+}
+.social:focus{
+    border: 0px solid #000000;
+}
+.social:focus span{
+    color: red;
 }
