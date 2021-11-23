@@ -650,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!;
+    color: #575757;
 }
 
 .container {
@@ -887,8 +887,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1046,12 +1044,14 @@ h4 {
 .black{
     color: #000000;
 }
-a:focus{
-    border: 5px solid #000000;
+a:focus,
+button:focus{
+    border: 3px solid #000000;
+    border-radius: 5px;
 }
 .social:focus{
     border: 0px solid #000000;
 }
 .social:focus span{
-    color: red;
+    color: white;
 }
