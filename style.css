@@ -1044,6 +1044,6 @@ h4 {
         text-align: center;
     }
 }
-footer{
-    color: #000000;
+.black{
+    color: #000000!important;
 }
