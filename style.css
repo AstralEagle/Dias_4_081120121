@@ -1055,3 +1055,6 @@ button:focus{
 .social:focus span{
     color: white;
 }
+.img-responsive{
+    width: 100%;
+}
