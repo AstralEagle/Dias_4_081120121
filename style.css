@@ -1056,5 +1056,5 @@ button:focus{
     color: white;
 }
 .img_site{
-    width: 100%;
+    width: 100%!important;
 }
